@@ -1,9 +1,58 @@
-print("Merhaba Etiya")
+#-------------------------------------
+print("merhaba Etiya")
 
-print(50/2==25.01)
+# string = metinsel
+text = "15"
+print(text)
 
-name="Halit"
-age="23"
-company="Etiya"
+# integer = tam sayı
+number = 45
+print(number)
 
-print(f"{name.upper()} {age} yaşında {company}'de çalışıyor.")
+# double,float,decimal = ondalıklı sayı
+dnumber = 5.3
+print(dnumber)
+
+# matematiksel operatörler
+print(number + 5)
+print(number - 5)
+print(number * 5)
+print(number / 5)
+print(number % 3) 
+# matematiksel operatörler
+
+# boolean,bool = true veya false
+isVerified = True
+
+#karşılaştırma operatörleri 
+
+print(1 == 2)
+print(2 != 2) 
+
+print(2 > 2)
+print(2 < 2)
+
+print(2 >= 2)
+print(2 <= 2)
+
+print(10%2==0)
+
+print(50/2 == 25)
+print(50/2 == 25.00)
+
+# stringlerle çalışma
+text = "Merhaba Etiya"
+print(text.upper())
+print(text.lower())
+print(text.startswith("Mer"))
+print(text.endswith("Etiya"))
+
+name = "Berk"
+age= 30
+company = "Etiya"
+
+
+#print(name + " " + age + " yaşında " + company + "'de çalışıyor")
+print(f"{name} {age} yaşında {company}'de çalışıyor")
+
+#-----------------------
