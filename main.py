@@ -9,7 +9,7 @@ print(text)
 number = 45
 print(number)
 
-# double,float,decimal = ondalıklı sayı
+# double,float,decimal = kesirli sayı
 dnumber = 5.3
 print(dnumber)
 
@@ -19,12 +19,11 @@ print(number - 5)
 print(number * 5)
 print(number / 5)
 print(number % 3) 
-# matematiksel operatörler
 
-# boolean,bool = true veya false
+# boolean,bool = mantıksal operatörler
 isVerified = True
 
-#karşılaştırma operatörleri 
+# karşılaştırma operatörleri 
 
 print(1 == 2)
 print(2 != 2) 
